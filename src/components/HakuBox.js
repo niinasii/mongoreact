@@ -1,27 +1,29 @@
 import React, { Component } from 'react';
 var axios = require('axios');
 
-class ParentBox extends Component {
+class HakuBox extends Component {
     state = {
         oppilaat: []
     };
 
     componentDidMount = () => {
-            axios.get('http//localhost:4000/students')
+        axios.get('http://localhost:4000/students')
             .then(res => {
                 const oppilaat = res.data;
-                this.setState({oppilaat});
+                this.setState({ oppilaat });
                 console.log(oppilaat);
             })
     }
 
     render() {
         return (
-            <div>
-                
+            <div id="lista">
+                <ul>
+                    {this.state.oppilaat.map(oppilas => <li>id: {oppilas._id}, nimi: {oppilas.nimi}, ikä: {oppilas.ika}</li>)}
+                </ul>
             </div>
         );
     }
 }
 
-export default ParentBox;
+export default HakuBox;
