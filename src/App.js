@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ParentBox from './components/ParentBox';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header>
       </header>
       <main>
-        Tähän tulostuskomponentti
+        <ParentBox />
       </main>
     </div>
   );

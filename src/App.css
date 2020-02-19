@@ -16,3 +16,11 @@ header {
 main {
   background-color: whitesmoke;
 }
+
+#haku {
+  background-color: red;
+}
+
+#lista {
+  background-color: yellow;
+}
