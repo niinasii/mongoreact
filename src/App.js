@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ParentBox from './components/ParentBox';
+import HakuBox from './components/HakuBox';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <h1>React REST api <br />MongoDB</h1>
       </header>
       <main>
-        <ParentBox />
+        <HakuBox />
       </main>
     </div>
   );
