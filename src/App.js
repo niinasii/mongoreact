@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header>
+        <h1>React REST api <br />MongoDB</h1>
       </header>
       <main>
         <ParentBox />

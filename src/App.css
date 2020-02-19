@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background-color: snow;
+}
+
 header {
   background-color: #282c34;
   height: 200px;
@@ -14,13 +18,23 @@ header {
 }
 
 main {
-  background-color: whitesmoke;
+  color: black;
 }
 
 #haku {
-  background-color: red;
+  background-color: slategrey;
+  height: 100px;
+  padding: 10px;
 }
 
 #lista {
-  background-color: yellow;
+  background-color: whitesmoke;
+}
+
+#nappi {
+  border: black solid 1px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
 }

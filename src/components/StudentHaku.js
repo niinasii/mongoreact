@@ -4,7 +4,7 @@ class StudentHaku extends Component {
     render() {
         return (
             <section id="haku">
-                Tässä on haku.
+                <button id="nappi" type="button">Hae oppilaat</button>
             </section>
         );
     }
